@@ -1,0 +1,79 @@
+.HomeSection-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    margin-bottom: 87px;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.HomeSection-container .home-items {
+    position: relative;
+    margin-top: 30%;
+}
+
+.HomeSection-container .Search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+    background: #9E7442;
+    opacity: 80%;
+    bottom: 20px;
+
+}
+
+.HomeSection-container .Search-box .searchInput {
+    right: 100%;
+    display: inline;
+    width: 250px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0px 10px 0px 0px;
+    background: none;
+    border: none;
+    text-decoration: black;
+}
+
+.HomeSection-container .Search-box .searchInput::placeholder {
+    color: black;
+}
+
+
+.HomeSection-container .Search-box :nth-child(1) {
+    margin-left: auto;
+    background: none;
+    border: none;
+    padding: none;
+    margin-top: 2px;
+}
+
+.HomeSection-container .addFile-btn {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: #9E7442;
+    opacity: 80%;
+    color: white;
+    font-size: 15px;
+}
+
+.HomeSection-container .addFile-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 20%;
+}
