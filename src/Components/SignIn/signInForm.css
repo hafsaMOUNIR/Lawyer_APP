@@ -1,0 +1,95 @@
+.form-container {
+    height: 550px;
+    width: 320px;
+    border-radius: 0 0 150px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9E7442;
+    opacity: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+}
+
+.form-container .title {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 100%;
+    color: white;
+    width: 320px;
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+
+.form-container .input-items {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.form-container .input-items .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 250px;
+}
+
+.form-container .input-items .item .label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.form-container .input-items .item .label :nth-child(1) {
+    margin-right: 20px;
+}
+
+
+.form-container .input-items .item .input{
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    padding-right: 20px;
+}
+
+
+.form-container .input-items .item .input[id="username"]{
+    margin-bottom: 20px;
+}
+
+.form-container .input-items .item .input[id="psw"]{
+    margin-bottom: 20px;
+}
+
+.form-container .btn-form {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 30px
+}
+
+.form-container .btn-form:hover{
+    color: #9E7442;
+    background-color: white;
+    opacity: 70%;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.SignIn-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+.SignIn-container .left-item {
+    position: absolute;
+    left: 13%;
+}
+
+.SignIn-container .right-item {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.SignIn-container .right-item .signIn-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
