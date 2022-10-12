@@ -42,9 +42,9 @@
 
 .form-container .input-items .item .label {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    width: 200px;
+    width: 250px;
     margin-bottom: 5px;
 }
 
@@ -84,7 +84,6 @@
     color: #9E7442;
     background-color: white;
     opacity: 70%;
-
 }
 
 

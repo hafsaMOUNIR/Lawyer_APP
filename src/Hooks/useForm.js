@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const useForm = () => {
     const [values, setValues] = useState({
         username: '',
-        password: ''
+        password: '',
     });
     const [errors, setErrors] = useState({});
     const navigate = useNavigate();
@@ -20,7 +20,6 @@ const useForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate('/')
     }
 
     return { handleChange, values, handleSubmit };

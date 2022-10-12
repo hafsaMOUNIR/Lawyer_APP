@@ -6,7 +6,7 @@ import useForm from '../../Hooks/useForm'
 import './signInForm.css'
 
 const SignInForm = () => {
-    const {handleChange, values, handleSubmit} = useForm();
+    const { handleChange, values, handleSubmit } = useForm();
 
     return (
         <form className='form-container' onSubmit={handleSubmit}>
@@ -17,8 +17,8 @@ const SignInForm = () => {
                 <div className='item'>
 
                     <div className='label'>
-                        <label> اسم المستخدم</label>
                         <FaUser size={20} />
+                        <label> اسم المستخدم</label>
                     </div>
 
                     <input
@@ -27,8 +27,6 @@ const SignInForm = () => {
                         type="text"
                         className='input'
                         placeholder='أدخل اسم المستخدم...'
-                        dir='rtl'
-                        lang='ar'
                         value={values.username}
                         onChange={handleChange}
                     />
@@ -38,18 +36,16 @@ const SignInForm = () => {
                 <div className='item'>
 
                     <div className='label'>
+                        <FaLock size={20} />
                         <label>كلمة المرور</label>
-                        <FaLock size={20}/>
                     </div>
 
                     <input
                         id='psw'
                         name='psw'
-                        type="text"
+                        type="password"
                         className='input'
                         placeholder='أدخل كلمة المرور...'
-                        dir='rtl'
-                        lang='ar'
                         value={values.password}
                         onChange={handleChange}
                     />
@@ -58,7 +54,7 @@ const SignInForm = () => {
             </div>
 
             <Link
-                to='/'
+                to='/Home'
                 className='btn-form'
                 dir='rtl'
                 lang='ar'
@@ -67,7 +63,7 @@ const SignInForm = () => {
         </form>
     )
 
-    
+
 }
 
 export default SignInForm

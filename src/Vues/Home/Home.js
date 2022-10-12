@@ -6,7 +6,8 @@ import Navbar from '../../Components/Navbar/Navbar';
 function Home() {
     return (
         <div>
-            <Navbar/>
+            <Navbar
+                isDark={false}/>
             <HomeSection />
             <Footer/>
         </div>

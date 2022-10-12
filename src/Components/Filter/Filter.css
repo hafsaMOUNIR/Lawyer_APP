@@ -1,0 +1,52 @@
+.filter-section {
+    padding-right: 40px;
+}
+
+.filter-section .contentDown button {
+    border: 1px solid rgba(191,170,143,0.8);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 0px 10px 0px 10px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-section .contentDown button:hover {
+    cursor: pointer;
+}
+
+
+.filter-section .contentDown button :nth-child(1) {
+    color: #9E7442;
+    margin-left: 10px;
+}
+
+
+.filter-section  .items-active{
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+    padding-right: 40px;
+}
+
+
+.filter-section  .items-active button{
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+
+
+.filter-section  .items-active button .item-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.filter-section .filter-btn :nth-child(1){
+    margin-left: 40px;
+}
